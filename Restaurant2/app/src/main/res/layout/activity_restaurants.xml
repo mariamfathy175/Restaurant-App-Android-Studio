@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Restaurants"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:paddingTop="25dp"
+            android:paddingBottom="10dp"
+            android:text="Choose Your Favourite Restaurant "
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/black"
+            android:padding="15dp"
+            android:text="Burger Restaurant "
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/burgerres"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:padding="10dp"
+            android:text="Burger"
+            app:srcCompat="@drawable/burger"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/black"
+            android:padding="15dp"
+            android:text="Healthy Restaurant "
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/healthyres"
+            android:layout_width="match_parent"
+            android:layout_height="253dp"
+            android:padding="10dp"
+            android:text="Healthy"
+            app:srcCompat="@drawable/health"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/black"
+            android:padding="15dp"
+            android:text="Sushi Restaurant "
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/sushires"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:padding="10dp"
+            android:text="Sushi"
+            app:srcCompat="@drawable/sushii" />
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/black"
+            android:padding="15dp"
+            android:text="Pizza Restaurant "
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/pizzares"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:padding="10dp"
+            android:text="Pizza"
+            app:srcCompat="@drawable/pizza" />
+    </LinearLayout>
+
+</ScrollView>
